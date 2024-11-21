@@ -9,6 +9,8 @@ on:
     branches: [ "python" ]
   pull_request:
     branches: [ "python" ]
+    paths:
+      - 'Ch02/**' 
 
 permissions:
   contents: read
